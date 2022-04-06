@@ -1,0 +1,2 @@
+# Mediflash-Pokedex
+Setup readme
