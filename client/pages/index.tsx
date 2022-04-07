@@ -30,11 +30,11 @@ export default function Home() {
         <title>Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center h-screen items-center flex-col">
         <div className="grid grid-cols-3 gap-2">
           {data.pokemon.map(pokemon => <Card title={pokemon.name} id={pokemon.id} />)}
         </div>
-        <div className="items-center space-x-8">
+        <div className="space-x-8 mt-8">
           <button className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none" onClick={() => setOffset(offset - 10)}>Previous</button>
           <button className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none" onClick={() => setOffset(offset + 10)}>Next</button>
         </div>
