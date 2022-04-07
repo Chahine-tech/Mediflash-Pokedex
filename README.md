@@ -1,7 +1,7 @@
 # Mediflash-Pokedex
 Petit Pokédex fait avec Nextjs, Nestjs et Graphql
 
-## Question
+## Questions
 Les améliorations à apporter sont :
 
 - Faire des tests plus précisement unitaire car c'est un élément essentiel au code source pour s'assurer que l'application fonctionne toujours comme prévu malgré des évolutions dans le code, l'implémentation de futur features. Avant toute mise en prod toujours faire un test unitaire pour s'assurer que rien est cassé.
