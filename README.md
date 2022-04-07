@@ -3,7 +3,7 @@ Petit Pokédex fait avec Nextjs, Nestjs et Graphql
 
 ## Question
 Les améliorations à apporter sont :
-po
+
 - Faire des tests plus précisement unitaire car c'est un élément essentiel au code source pour s'assurer que l'application fonctionne toujours comme prévu malgré des évolutions dans le code, l'implémentation de futur features. Avant toute mise en prod toujours faire un test unitaire pour s'assurer que rien est cassé.
 
 - Ajouter de la CI/CD. Il est important de mettre en place une politique de CI/CD le plus tôt possible afin de gagner du temps par la suite sur les projets. Cela permet  par la suite de d’intégrer, tester et déployer plus fréquemment les modifications que vous développez.
